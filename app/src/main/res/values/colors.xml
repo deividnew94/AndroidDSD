@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/red_toolbar_inf</color>
+    <color name="colorPrimaryDark">@color/red_toolbar</color>
+    <color name="colorAccent">@color/white</color>
+    <color name="orange_button_light">#ffA000</color>
+    <color name="orange_button_dark">#ff8200</color>
+    <color name="red_toolbar">#C8191d</color>
+    <color name="red_toolbar_inf">#ED1D23</color>
+    <color name="blue_toolbar">#102141</color>
+    <color name="white">#fff</color>
+    <color name="black">#2A2A2A</color>
+
+
+    <color name="colorPrimarySlide">#e7e9e9</color>
+    <color name="colorPrimaryDarkSlide">#c5c5c6</color>
+    <color name="text_color">#515151</color>
+    <color name="orange_titulos">#F3740F</color>
+
+
+    <!-- Activity Terminos y condiciones-->
+    <color name="terminos_y_condiciones">#4A546F</color>
+    <color name="telefono">#53B137</color>
+    <color name="text_terminos_condiciones">#777777</color>
+    <color name="textos_titulo">#4A546F</color>
+    <!--Activity Mesa Ayuda-->
+    <color name="mesa_ayuda">#545454</color>
+    <!--Tabs-->
+    <color name="red_tab_selected">#9B1417</color>
+    <color name="red_tab_selected_icon">#B71C1C</color><!--809B1417-->
+    <color name="transparent">#00ffffff</color>
+    <color name="orange_filtro">#8C8C8C</color>
+    <!--<color name="orange_filtro">#F68910</color>-->
+    <color name="griss_titulos_filtros">#636363</color>
+
+    <!--Fragment Usuario-->
+    <color name="celular">#FF5F00</color>
+
+    <!--Lista Detalle Dcto-->
+    <color name="nombreRestaurante">#000000</color>
+    <color name="azulDscto">#0974B2</color>
+    <color name="azulDsctodark">#065e91</color>
+    <color name="grayRatingBar">#C6C6C6</color>
+    <color name="yellowRatingBar">#f8c81c</color>
+    <color name="ticketText">#00BA02</color>
+    <color name="linerview">#15636363</color>
+    <color name="ratingText">#42636363</color>
+    <color name="transparente">#00ffffff</color>
+    <color name="segmentedGroup">#56575B</color>
+    <color name="seekbar">#c2c2c2</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

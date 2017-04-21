@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragmentCategoria"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.fragment.UsuarioFragment"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@mipmap/fondo_usuario"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@mipmap/ic_place_holder_photo"
+                        android:id="@+id/img_user" />
+
+                    <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:textColor="#0c82ea"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Nombre"-->
+                    <!--android:id="@+id/txt_usuario" />-->
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    style="@style/SelectableItemBackground"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_margin="8dp"
+                        android:theme="@style/TextoUsuario"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nombreUsuario"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:theme="@style/ValueUsuario"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nombres"
+                        android:id="@+id/txt_nombre" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    style="@style/SelectableItemBackground"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_margin="8dp"
+                        android:theme="@style/TextoUsuario"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apellidoUsuario"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:theme="@style/ValueUsuario"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_height="wrap_content"
+                        android:text="Apellidos"
+                        android:id="@+id/txt_apellido" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    style="@style/SelectableItemBackground"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_margin="8dp"
+                        android:theme="@style/TextoUsuario"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dniUsuario"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:theme="@style/ValueUsuario"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_height="wrap_content"
+                        android:text="DNI"
+                        android:id="@+id/txt_dni" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    style="@style/SelectableItemBackground"
+                    android:layout_margin="8dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:theme="@style/TextoUsuario"
+                        android:text="Celular"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:theme="@style/ValueUsuarioCelular"
+                        android:text="@string/celularUsuario"
+                        android:id="@+id/txt_celular" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    style="@style/SelectableItemBackground"
+                    android:layout_margin="8dp"
+                    android:id="@+id/lnrConfigNotificaciones"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_notifications_black_24dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/configuracionUsuario"
+                        android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                        android:theme="@style/TextoUsuario"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="8dp"
+                    android:id="@+id/ly_cerrar_session"
+                    android:clickable="true"
+                    android:focusable="true"
+                    style="@style/SelectableItemBackground"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cerrar Sesión"
+                        android:textSize="16sp"
+                        android:typeface="normal"
+                        android:textColor="#ef6084"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="@dimen/elevation_toolbar"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/close"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_close_white_24dp"
+        />
+
+    <TextView
+        android:id="@+id/texto_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:text="Busqueda"
+        android:textSize="@dimen/texto_tamanio_toolbar"
+        android:ellipsize="end"
+        android:paddingLeft="4dp"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        />
+
+    <Button
+        android:id="@+id/boton_toolbar"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_gravity = "right"
+        android:text="@string/btn_borrar_filtro"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:padding="13dp"
+
+        />
+
+</android.support.v7.widget.Toolbar>

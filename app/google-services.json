@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "119268883040",
+    "firebase_url": "https://disfruta-4ca25.firebaseio.com",
+    "project_id": "disfruta-4ca25",
+    "storage_bucket": "disfruta-4ca25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119268883040:android:a89feb5f7597c61b",
+        "android_client_info": {
+          "package_name": "com.gmdinnovacion.beneficiosgmd.disfruta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119268883040-24pmbclba4ifalrjol1r4inecb3sjcnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY5ghDIQ5UytNX2F_wR8Po8_pOmiDTrxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

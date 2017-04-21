@@ -1,0 +1,80 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--margin-->
+    <dimen name="marg_image_login">15dp</dimen>
+    <dimen name="marg_textinput_login">5dp</dimen>
+    <dimen name="marg_checkbox_login">15dp</dimen>
+    <dimen name="marg_default">16dp</dimen>
+    <dimen name="radius_button">5dp</dimen>
+    <dimen name="tittle_terminos_margin">20dp</dimen>
+    <dimen name="checkbox_terminos">20dp</dimen>
+    <dimen name="margin_subtext_mesaayuda">10dp</dimen>
+    <dimen name="margin_text_mesaayuda">16dp</dimen>
+    <dimen name="margin_text_terminos">15dp</dimen>
+
+
+    <!---padding-->
+    <dimen name="padd_olvidoclave_login">20dp</dimen>
+    <dimen name="terminos_condiciones">16dp</dimen>
+
+
+    <!--size of labels-->
+    <dimen name="size_title_login">30sp</dimen>
+    <dimen name="size_promt_login">16sp</dimen>
+
+    <!--sliding-->
+    <dimen name="sliding_tamanio_barra_superior">56dp</dimen>
+    <dimen name="sliding_tamaño_texto_boton_omitir">16sp</dimen>
+    <dimen name="sliding_tamaño_texto_boton_siguiente">18sp</dimen>
+    <dimen name="sp_text_slides">15sp</dimen>
+    <dimen name="app_bar_height">240dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="appbar_padding_bottom">6dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--Terminos y condiciones-->
+
+    <dimen name="terminos_condiciones_title">28sp</dimen>
+    <dimen name="terminos_condiciones_text">18sp</dimen>
+    <dimen name="texto_boton_naranja">18sp</dimen>
+    <dimen name="text_terminos_size">14sp</dimen>
+
+    <!--Mesa Ayuda-->
+
+    <dimen name="telefono">24sp</dimen>
+
+    <!--Fragment Usuario-->
+
+    <dimen name="dot">100sp</dimen>
+
+    <dimen name="elevation_toolbar">4dp</dimen>
+    <dimen name="texto_tamanio_toolbar">18sp</dimen>
+
+    <!--Fragment detalle categoria-->
+
+    <dimen name="margin_images_bottom">16dp</dimen>
+    <dimen name="widht_images">100dp</dimen>
+
+    <!--Lista Detalle Dcto-->
+
+    <dimen name="paddingDcto">10dp</dimen>
+    <dimen name="paddingDctoPadre">10dp</dimen>
+    <dimen name="marginDcto">5dp</dimen>
+    <dimen name="marginabierto">8dp</dimen>
+    <dimen name="marginDctoIcons">4dp</dimen>
+    <dimen name="tamañoIconsDcto">12dp</dimen>
+
+    //size
+    <dimen name="nombreRestaurante">18dp</dimen>
+    <dimen name="textoSmalDscto">12dp</dimen>
+    <dimen name="textoTicketDscto">20dp</dimen>
+    <dimen name="textoDscto">12dp</dimen>
+
+    <dimen name="heithTolba">70dp</dimen>
+
+</resources>

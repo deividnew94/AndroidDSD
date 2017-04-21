@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_combined_shape_24dp"
+        android:id="@+id/imageCategoriaMenu" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Restaurantes"
+        android:id="@+id/textCategoriaMenu"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/orange_filtro"
+        android:layout_margin="8dp"
+        android:textSize="12sp"/>
+
+</LinearLayout>

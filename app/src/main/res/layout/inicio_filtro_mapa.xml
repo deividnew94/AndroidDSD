@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+</LinearLayout>
+<!--<android.support.v7.widget.Toolbar-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/toolbarMapDisfruta"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:segmentedgroup="http://schemas.android.com/tools"-->
+    <!--android:background="@color/red_tab_selected_icon"-->
+    <!--android:elevation="@dimen/elevation_toolbar"-->
+    <!--android:padding="10dp"-->
+    <!--android:gravity="center"-->
+    <!--android:contentInsetStart="0dp"-->
+    <!--android:contentInsetLeft="0dp"-->
+    <!--app:contentInsetLeft="0dp"-->
+    <!--app:contentInsetStart="0dp"-->
+
+    <!--&gt;-->
+
+        <!--<ImageView-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:id="@+id/boton_search"-->
+            <!--android:background="@drawable/selector_maps_disfruta"-->
+            <!--android:src="@drawable/ic_search_black_18px"/>-->
+
+        <!--&lt;!&ndash;<info.hoang8f.android.segmented.SegmentedGroup&ndash;&gt;-->
+        <!--&lt;!&ndash;xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/segmentedMap"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center_horizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;segmentedgroup:sc_border_width="2dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:sc_tint_color="@color/segmentedGroup"&ndash;&gt;-->
+        <!--&lt;!&ndash;segmentedgroup:sc_corner_radius="10dp">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<RadioButton&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button21"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/colorAccent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Lista"&ndash;&gt;-->
+        <!--&lt;!&ndash;style="@style/RadioButton" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<RadioButton&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button22"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Mapa"&ndash;&gt;-->
+        <!--&lt;!&ndash;style="@style/RadioButton" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</info.hoang8f.android.segmented.SegmentedGroup>&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/listadisfruta"-->
+                <!--android:textColor="@color/colorAccent"-->
+                <!--android:text="Lista"-->
+                <!--android:background="@drawable/background_lista_disfruta"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/mapadisfruta"-->
+                <!--android:textColor="@color/segmentedGroup"-->
+                <!--android:text="Mapa"-->
+                <!--android:background="@drawable/background_mapa_disfruta"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+
+            <!--android:layout_width = "wrap_content"-->
+            <!--android:layout_height = "wrap_content"-->
+            <!--android:layout_gravity = "right"-->
+            <!--android:background="@drawable/selector_maps_disfruta"-->
+            <!--android:id="@+id/boton_tuner"-->
+            <!--android:src="@drawable/ic_tune_black_18px"-->
+            <!--android:padding="10dp"-->
+            <!--/>-->
+
+
+
+<!--</android.support.v7.widget.Toolbar>-->

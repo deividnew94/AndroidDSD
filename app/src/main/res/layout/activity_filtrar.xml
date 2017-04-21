@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_filtrar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gmdinnovacion.beneficiosgmd.disfruta.view.activity.FiltrarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="15dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/boton_close"
+            android:src="@drawable/ic_arrow_detalle_white_24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_toRightOf="@+id/boton_close"
+            >
+            <SearchView
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:id="@+id/buscar_nombre"
+                android:theme="@style/AppThemeFiltrar"
+                android:queryHint="Buscar en Disfruta"
+                android:searchIcon="@drawable/ic_search_filtrar_24dp"
+                android:commitIcon="@drawable/ic_close_white_24dp"
+                android:searchHintIcon="@drawable/ic_search_filtrar_24dp"
+                android:closeIcon="@drawable/ic_close_white_24dp"
+                android:layout_height="?attr/actionBarSize"
+                />
+            <SearchView
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:id="@+id/buscar_lugar"
+                android:theme="@style/AppThemeFiltrar"
+                android:queryHint="Cerca de mi ubicación"
+                android:searchIcon="@drawable/ic_search_filtrar_24dp"
+                android:commitIcon="@drawable/ic_close_white_24dp"
+                android:closeIcon="@drawable/ic_close_white_24dp"
+                android:searchHintIcon="@drawable/ic_search_filtrar_24dp"
+                android:layout_height="?attr/actionBarSize"
+
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
